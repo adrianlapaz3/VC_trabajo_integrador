@@ -1,0 +1,19 @@
+# --- REGLAS DE GITIGNORE ACTUALIZADAS ---
+
+# 1. Dentro de /data, ignorar SOLO la carpeta /raw y los archivos .zip
+/data/raw/
+/data/*.zip
+
+# 2. NO ignoramos la carpeta de salidas para guardar los resultados
+# La línea /outputs/ ha sido eliminada.
+
+# 3. Resto de archivos a ignorar (entornos, caché, etc.)
+/env/
+/venv/
+/.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
