@@ -9,11 +9,11 @@ https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset/data
 
 ## Estructura del proyecto
 El proyecto está organizado para mantener un flujo de trabajo limpio y reproducible:
-* **/data:** Contiene los DataFrames procesados (`.csv`). La data cruda (imágenes) se mantiene fuera del repositorio y debe ser descargada por separado.
-* **/notebooks:** Cuadernos de Jupyter que documentan el proceso de forma secuencial.
-* **/src:** Código fuente reutilizable (ej. funciones para construir arquitecturas de modelos).
-* **/outputs:** Almacena los artefactos de cada experimento (modelos guardados, logs, gráficos). Ignorado por Git.
-
+* **/data:** Contiene los DataFrames procesados (`.csv`). Las se mantiene fuera del repositorio de github, hay que descargarlas por separado.
+* **/notebooks:** Notebooks con  que documentan el proceso de forma secuencial.
+* **/src:** Librerías locales.
+* **/outputs:** Almacena las salidas de cada experimento (modelos guardados, logs, gráficos).
+* 
 ---
 
 ## Metodología del proyecto
