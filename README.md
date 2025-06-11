@@ -48,5 +48,5 @@ Una vez seleccionada la mejor estrategia del baseline, se procede a la fase de a
 * Se continúa el entrenamiento con una **tasa de aprendizaje (learning rate) muy baja** para especializar la red en nuestro dataset específico.
 * Se pueden probar diferentes **"estrategias de recorte"** (descongelar más o menos capas) para encontrar el punto óptimo de rendimiento.
 
-### 5. Evaluación final sobre datos de test
+### 5. Evaluación final sobre datos de test (`5_performance.ipynb`)
 El rendimiento final y definitivo del mejor modelo (después del fine-tuning) se mide sobre el **conjunto de testeo (10% de los datos)**. Este conjunto no ha sido utilizado en ninguna etapa anterior, lo que garantiza una métrica imparcial de la capacidad de generalización del modelo. Se analizan métricas como `Accuracy`, `Precision`, `Recall`, `F1-score` y la **matriz de confusión**.
